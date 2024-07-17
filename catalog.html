@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Emagazine</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.fullpage.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animation.css">
+</head>
+<body>
+    
+<div class="catalog">
+    <div class="catalog-menu-layout">
+            <div class="hamburger-menu">
+                <a onclick="menu();">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+        <div class="logo-catalog">
+            <img src="image/logo-second.png" alt="">
+        </div>
+        <div class="catalog-user">
+            <div class="user-image">
+                <img src="image/profile.png" alt="">
+            </div>
+            <span>Muhamad Rafli</span>
+        </div>
+    </div>
+    <div class="catalog-content">
+        <div class="search-catalog">
+            <input type="text" placeholder="Cari disini...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="catalog-layout">
+            <div onclick="openFullscreen();" class="catalog-card">
+                <div class="catalog-image">
+                    <div class="overlay-card"></div>
+                    <div class="catalog-data">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>20</span>
+                    </div>
+                    <div class="catalog-data catalog-edisi">
+                        <span>Edisi 1</span>
+                    </div>
+                    <img src="image/cover-mobile.png" alt="">
+                    <div class="catalog-card-content">
+                        <div class="rating-layout">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            •
+                            <span>03/12/2023</span>
+                        </div>
+                        <h1>Famatex Emagazine</h1>
+                        <!-- <p>Lorem ipsufgwerfer adfdsfds dsfjslkfjldsk dfosfsdjfio dipisicing elit. Exercitationem, magnam.</p> -->
+                        <button>Lihat Disini</button>
+                    </div> 
+                    <div class="magazine-box" id="magazine">
+                        <button class="button-close" onclick="closeFullscreen();">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <iframe src="main-magazine.html" class="magazine-layout" frameborder="0">
+                        </iframe>
+                    </div>
+                </div>
+                
+            </div>
+            <div onclick="openFullscreen();" class="catalog-card">
+                <div class="catalog-image">
+                    <div class="overlay-card"></div>
+                    <div class="catalog-data">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>20</span>
+                    </div>
+                    <div class="catalog-data catalog-edisi">
+                        <span>Edisi 2</span>
+                    </div>
+                    <img src="image/cover-mobile.png" alt="">
+                    <div class="catalog-card-content">
+                        <div class="rating-layout">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            •
+                            <span>03/12/2023</span>
+                        </div>
+                        <h1>Famatex Emagazine</h1>
+                        <!-- <p>Lorem ipsufgwerfer adfdsfds dsfjslkfjldsk dfosfsdjfio dipisicing elit. Exercitationem, magnam.</p> -->
+                        <button>Lihat Disini</button>
+                    </div> 
+                    <div class="magazine-box" id="magazine">
+                        <button class="button-close" onclick="closeFullscreen();">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <iframe src="main-magazine.html" class="magazine-layout" frameborder="0">
+                        </iframe>
+                    </div>
+                </div>
+                
+            </div>
+            <div onclick="openFullscreen();" class="catalog-card">
+                <div class="catalog-image">
+                    <div class="overlay-card"></div>
+                    <div class="catalog-data">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>0</span>
+                    </div>
+                    <div class="catalog-data catalog-edisi">
+                        <span>Edisi 3</span>
+                    </div>
+                    <img src="image/cover-mobile.png" alt="">
+                    <div class="catalog-card-content">
+                        <div class="rating-layout">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            •
+                            <span>03/12/2023</span>
+                        </div>
+                        <h1>Famatex Emagazine</h1>
+                        <!-- <p>Lorem ipsufgwerfer adfdsfds dsfjslkfjldsk dfosfsdjfio dipisicing elit. Exercitationem, magnam.</p> -->
+                        <button>Lihat Disini</button>
+                    </div> 
+                    <div class="magazine-box" id="magazine">
+                        <button class="button-close" onclick="closeFullscreen();">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <iframe src="main-magazine.html" class="magazine-layout" frameborder="0">
+                        </iframe>
+                    </div>
+                </div>
+                
+            </div>
+            <div onclick="openFullscreen();" class="catalog-card">
+                <div class="catalog-image">
+                    <div class="overlay-card"></div>
+                    <div class="catalog-data">
+                        <i class="fa-solid fa-eye"></i>
+                        <span>1</span>
+                    </div>
+                    <div class="catalog-data catalog-edisi">
+                        <span>Edisi 4</span>
+                    </div>
+                    <img src="image/cover-mobile.png" alt="">
+                    <div class="catalog-card-content">
+                        <div class="rating-layout">
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            •
+                            <span>03/12/2023</span>
+                        </div>
+                        <h1>Famatex Emagazine</h1>
+                        <!-- <p>Lorem ipsufgwerfer adfdsfds dsfjslkfjldsk dfosfsdjfio dipisicing elit. Exercitationem, magnam.</p> -->
+                        <button>Lihat Disini</button>
+                    </div> 
+                    <div class="magazine-box" id="magazine">
+                        <button class="button-close" onclick="closeFullscreen();">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <iframe src="main-magazine.html" class="magazine-layout" frameborder="0">
+                        </iframe>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+     function menu() {
+    document.getElementById("menu-mobile")
+      .classList.toggle("active");
+    }
+</script>
+<script src="js/fullscreen.js"></script>
+<script src="js/load.js"></script>
+<script>
+    document.getElementById("magazine").contents().find("#choose_pic").click(function() {
+      closeFullscreen();
+    });
+  
+    function closeFullscreen() {
+      if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.webkitExitFullscreen) { /* Safari */
+        document.webkitExitFullscreen();
+      } else if (document.msExitFullscreen) { /* IE11 */
+        document.msExitFullscreen();
+      }
+    }
+  </script>
+  
+<script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+	<script src="js/jquery.fullpage.min.js"></script>
+  <script>
+    $(document).ready(function() {
+    $('#fullpage').fullpage({
+		anchors:['firstSection', 'secondSection', 'thirdSection'],
+	});
+});
+  </script>
+<script src="https://kit.fontawesome.com/a82f2b374c.js" crossorigin="anonymous"></script>
+</body>
+</html>
